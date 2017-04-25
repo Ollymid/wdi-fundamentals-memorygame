@@ -51,7 +51,7 @@ var cardsInPlay = [];
 
 var checkForMatch = function () {
 	if (cardsInPlay.length === 2) {
-	if (cardsInPlay[0] === cardsInPlay[1] && cardsInPlay[2] === cardsInPlay[3]) {
+	if (cardsInPlay[0] === cardsInPlay[1]) {
   		alert("You found a match!");
   } 
   	else {
